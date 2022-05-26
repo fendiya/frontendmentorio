@@ -19,12 +19,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./Screenshot1.png)
-![](./Screenshot2.png)
+![desktop version](./Screenshot1.png)
+![mobile version](./Screenshot2.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://fendiya.github.io/frontendmentorio/1.QR_code_component/)
+- Solution URL: [QR code component](https://fendiya.github.io/frontendmentorio/1.QR_code_component/)
 
 ## My process
 
