@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Outfit', sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+}
+
+:root {
+  --fw-400: 400;
+  --fw-800: 800;
+  --fs-15: 15px;
+
+  --white: hsl(0, 0%, 100%);
+  --lightgray: hsl(212, 45%, 89%);
+  --grayblue: hsl(220, 15%, 55%);
+  --darkblue: hsl(218, 44%, 22%);
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+  background-color: var(--lightgray);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  width: 317px;
+  height: 497px;
+  padding: 16px;
+  overflow: hidden;
+  background-color: var(--white);
+  text-align: center;
+  border-radius: 1em;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  border-radius: 1em;
+}
+
+.card-title {
+  font-weight: var(--fw-800);
+  text-align: center;
+  color: var(--darkblue);
+  font-size: 19px;
+  padding-left: 19px;
+  padding-right: 19px;
+  margin-top: 28px;
+}
+
+.card-content {
+  font-weight: var(--fw-400);
+  text-align: center;
+  color: var(--grayblue);
+  font-size: var(--fs-15);
+  padding-left: 19px;
+  padding-right: 19px;
+}
