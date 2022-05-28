@@ -1,0 +1,4 @@
+//this in contain mixin for theming page
+@mixin themeable($bg) {
+  background-color: $bg;
+}

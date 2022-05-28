@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [NFT Preview Card Component](https://your-solution-url.com)
+- Solution URL: [NFT Preview Card Component](https://fendiya.github.io/frontendmentorio/2.NFT_PreviewCard_component/)
 
 
 ## My process

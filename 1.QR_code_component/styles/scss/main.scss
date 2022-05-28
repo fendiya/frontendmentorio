@@ -1,0 +1,9 @@
+// base scss
+@use "base/reset";
+@use "base/typography";
+
+// global variable
+@use "variables";
+
+// pages
+@use "pages/home";
