@@ -1,0 +1,25 @@
+{
+  "name": "scss-folder-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:scss": "sass --watch scss/main.scss:css/styles.css",
+    "compile:sass": "sass --style=expanded --embed-sources --no-error-css scss/main.scss:css/style.comp.css",
+    "concat:css": "concat -o css/style.concat.css css/normalize.css css/style.comp.css",
+    "prefix:css": "postcss css/style.comp.css --use autoprefixer -o css/style.prefix.css",
+    "compress:css": "sass css/style.prefix.css css/style.css --style=compressed",
+    "build": "npm-run-all compile:sass prefix:css compress:css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "concat": "^1.0.3",
+    "node-sass": "^7.0.1",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^9.1.0",
+    "sass": "^1.52.1"
+  }
+}

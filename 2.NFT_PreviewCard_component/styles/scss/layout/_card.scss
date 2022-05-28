@@ -1,0 +1,108 @@
+@use "./../variables" as *;
+
+.card {
+  width: 351px;
+  height: 597px;
+  padding: 24px;
+  background-color: $cardBG;
+  border-radius: 1rem;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(($cyan), 0.5);
+  z-index: -1;
+  position: absolute;
+  text-align: center;
+  padding-top: 50%;
+}
+
+header {
+  width: 302px;
+  height: 302px;
+  position: relative;
+
+  a {
+    &:hover {
+      .overlay {
+        z-index: 2;
+      }
+
+    }
+  }
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 28px 0;
+  height: 136px;
+  padding: 0;
+
+
+  h1 {
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  p {
+    color: $softBlue;
+    font-size: fpSize;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+
+  div {
+    display: flex;
+    justify-content: space-between;
+
+    span:first-child {
+      color: $cyan;
+    }
+
+    span:last-child {
+      align-self: flex-end;
+      color: $softBlue;
+    }
+  }
+}
+
+.line {
+  background-color: $line;
+  height: 1px;
+}
+
+footer {
+  margin-top: 14px;
+  margin-bottom: 33px;
+  display: flex;
+  align-items: center;
+
+  img {
+    width: 35px;
+  }
+
+  span {
+    color: $softBlue;
+    padding-left: 1rem;
+  }
+}
+
+a {
+  color: white;
+  text-decoration: none;
+
+  &:hover {
+    color: $cyan;
+
+  }
+}
