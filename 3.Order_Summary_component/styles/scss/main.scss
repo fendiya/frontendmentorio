@@ -1,0 +1,10 @@
+// Reset COnfiguration
+@use "base/reset";
+
+//mixin
+@use "abstracts/mixins";
+
+//Layout
+@use "layout/card";
+//Pages
+@use "pages/home";

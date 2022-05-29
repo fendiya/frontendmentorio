@@ -1,0 +1,131 @@
+@use "./../variables" as *;
+@use "./../abstracts/mixins" as *;
+
+.card {
+  width: 453px;
+  height: 697px;
+  border-radius: 1rem;
+  // border: 1px black solid;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: $vpBlue;
+
+  @include devices(mobile) {
+    width: 327px;
+    height: 569px;
+  }
+}
+
+.header {
+  height: 221px;
+  width: 100%;
+
+  @include devices(mobile) {
+    height: 160px;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem 1rem 0 0;
+  }
+}
+
+.content {
+  height: 479px;
+  margin: 53px;
+  text-align: center;
+
+  @include devices(mobile) {
+    margin: 39px 25px;
+    height: 333px;
+  }
+
+  h1 {
+    font-size: 22px;
+    font-weight: 900;
+    color: $drkBlue;
+  }
+
+  >article {
+    >p {
+      padding-top: 27px;
+      padding-bottom: 44px;
+
+      @include devices(mobile) {
+        padding-top: 23px;
+        padding-bottom: 41px;
+      }
+
+    }
+
+  }
+}
+
+.package {
+  display: grid;
+  grid-template-columns: 42px 60% 30%;
+  text-align: left;
+  align-items: center;
+  margin-left: 19px;
+  margin-right: 19px;
+  margin-bottom: 54px;
+
+  @include devices(mobile) {
+    margin-bottom: 35px;
+    font-size: 14px;
+  }
+
+  >.title {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1.5rem;
+
+    p:first-child {
+      font-weight: 900;
+      color: $drkBlue;
+    }
+  }
+
+  a {
+    &:hover {
+      color: rgba(($bBlue), 0.6);
+    }
+  }
+
+}
+
+.btn {
+  margin-bottom: 30px;
+  width: 100%;
+  height: 50px;
+  border-radius: 0.5rem;
+  color: $white;
+  background-color: $bBlue;
+  font-weight: 700;
+  padding-top: 0;
+  padding-bottom: 0;
+  border: 0px;
+
+  &:hover {
+    background-color: rgba(($bBlue), 0.6);
+  }
+
+}
+
+.co {
+  font-size: small;
+  // font-weight: 900;
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      color: rgba((black), 1);
+      font-weight: 900;
+    }
+  }
+}

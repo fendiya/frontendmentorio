@@ -1,0 +1,26 @@
+// # basic variables
+// ## Breakpoint
+$mobile: 481px;
+$tablet: 680px;
+
+
+// ## Colors
+// ### Primary
+
+$pBlue: hsl(225, 100%, 94%);
+$bBlue: hsl(245, 75%, 52%);
+
+// ### Neutral
+
+$vpBlue: hsl(225, 100%, 98%);
+$dBlue: hsl(224, 23%, 55%);
+$drkBlue: hsl(223, 47%, 23%);
+$white: hsl(0, 0%, 100%);
+
+// ## Typography
+// ### Body Copy
+$fpSize: 16px;
+
+// ### Font
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+$ffamily: 'Red Hat Display', sans-serif;
