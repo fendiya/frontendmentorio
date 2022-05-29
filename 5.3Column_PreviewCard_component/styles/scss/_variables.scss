@@ -1,0 +1,27 @@
+// # basic variables
+// ## Breakpoint
+$mobile: 481px;
+$tablet: 680px;
+
+
+// ## Colors
+// ### Primary
+
+$borg: hsl(31, 77%, 52%);
+$dcyan: hsl(184, 100%, 22%);
+$vdcyan: hsl(179, 100%, 13%);
+
+// ### Neutral
+
+$tpWhite: hsla(0, 0%, 100%, 0.75);
+$gray: hsl(0, 0%, 95%);
+
+// ## Typography
+// ### Body Copy
+$fpSize: 15px;
+
+// ### Font
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+$ffamily-bsd: 'Big Shoulders Display', cursive;
+$ffamily-lexend: 'Lexend Deca', sans-serif;

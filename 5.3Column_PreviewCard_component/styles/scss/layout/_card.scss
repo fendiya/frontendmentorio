@@ -1,0 +1,97 @@
+@use "./../variables" as *;
+@use "./../abstracts/mixins" as *;
+
+.card {
+  width: 308px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  border: 1px black solid;
+  padding: 46px 47px;
+
+  @include devices(mobile) {
+    // width: 308px;
+    // height: 500px;
+
+
+  }
+
+  .icon {
+    height: 41px;
+  }
+
+  .title {
+    padding: 41px 0;
+    font-size: 32px;
+  }
+
+  .desc {
+    font-family: $ffamily-lexend;
+    line-height: 1.5rem;
+  }
+
+  .btn {
+    button {
+      border-radius: 30px;
+      width: 100%;
+      height: 100%;
+      border: 1px white solid;
+
+
+
+    }
+
+    margin-top: 83px;
+    width: 149px;
+    height: 49px;
+
+  }
+}
+
+.card-1 {
+  background-color: $borg;
+  border-radius: 0.5rem 0 0 0.5rem;
+
+  .btn {
+    button {
+      color: $borg;
+
+      &:hover {
+        color: white;
+        background-color: $borg;
+      }
+    }
+  }
+}
+
+.card-2 {
+  background-color: $dcyan;
+  border-radius: 0;
+
+  .btn {
+    button {
+      color: $dcyan;
+
+      &:hover {
+        color: white;
+        background-color: $dcyan;
+      }
+    }
+  }
+}
+
+.card-3 {
+  background-color: $vdcyan;
+  border-radius: 0 0.5rem 0.5rem 0;
+
+  .btn {
+    button {
+      color: $vdcyan;
+
+      &:hover {
+        color: white;
+        background-color: $vdcyan;
+      }
+    }
+  }
+}

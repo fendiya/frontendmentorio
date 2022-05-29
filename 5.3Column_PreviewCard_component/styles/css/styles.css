@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+em,
+img,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+b,
+u,
+i,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+main,
+canvas,
+embed,
+footer,
+header,
+nav,
+section,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+}
+
+footer,
+header,
+nav,
+section,
+main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+.card {
+  width: 308px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  border: 1px black solid;
+  padding: 46px 47px;
+}
+.card .icon {
+  height: 41px;
+}
+.card .title {
+  padding: 41px 0;
+  font-size: 32px;
+}
+.card .desc {
+  font-family: "Lexend Deca", sans-serif;
+  line-height: 1.5rem;
+}
+.card .btn {
+  margin-top: 83px;
+  width: 149px;
+  height: 49px;
+}
+.card .btn button {
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  border: 1px white solid;
+}
+
+.card-1 {
+  background-color: hsl(31deg, 77%, 52%);
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+.card-1 .btn button {
+  color: hsl(31deg, 77%, 52%);
+}
+.card-1 .btn button:hover {
+  color: white;
+  background-color: hsl(31deg, 77%, 52%);
+}
+
+.card-2 {
+  background-color: hsl(184deg, 100%, 22%);
+  border-radius: 0;
+}
+.card-2 .btn button {
+  color: hsl(184deg, 100%, 22%);
+}
+.card-2 .btn button:hover {
+  color: white;
+  background-color: hsl(184deg, 100%, 22%);
+}
+
+.card-3 {
+  background-color: hsl(179deg, 100%, 13%);
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+.card-3 .btn button {
+  color: hsl(179deg, 100%, 13%);
+}
+.card-3 .btn button:hover {
+  color: white;
+  background-color: hsl(179deg, 100%, 13%);
+}
+
+body {
+  background-color: hsl(0deg, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 15px;
+  color: hsla(0deg, 0%, 100%, 0.75);
+  line-height: 2rem;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/*# sourceMappingURL=styles.css.map */
