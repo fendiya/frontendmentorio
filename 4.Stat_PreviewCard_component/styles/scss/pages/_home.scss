@@ -1,0 +1,22 @@
+@use "./../abstracts/mixins" as *;
+@use "./../variables" as *;
+
+body {
+  background-color: $mbg;
+  font-family: $ffamily-lexend;
+  font-size: $fpSize;
+  color: $stpWhite;
+  line-height: 2rem;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}

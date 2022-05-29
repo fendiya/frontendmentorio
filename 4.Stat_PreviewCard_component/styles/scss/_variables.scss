@@ -1,0 +1,29 @@
+// # basic variables
+// ## Breakpoint
+$mobile: 481px;
+$tablet: 680px;
+
+
+// ## Colors
+// ### Primary
+
+$mbg: hsl(233, 47%, 7%);
+$cbg: hsl(244, 38%, 16%);
+$acc: hsl(277, 64%, 61%);
+
+// ### Neutral
+
+$stpWhite: hsla(0, 0%, 100%, 0.6);
+$tpWhite: hsla(0, 0%, 100%, 0.75);
+$white: hsl(0, 0%, 100%);
+
+// ## Typography
+// ### Body Copy
+$fpSize: 15px;
+
+// ### Font
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+$ffamily-inter: 'Inter', sans-serif;
+
+
+$ffamily-lexend: 'Lexend Deca', sans-serif;
