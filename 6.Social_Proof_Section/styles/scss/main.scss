@@ -1,0 +1,11 @@
+// Reset COnfiguration
+@use "base/reset";
+
+//mixin
+@use "abstracts/mixins";
+
+//Component
+@use "components/card";
+@use "components/starbar";
+//Pages
+@use "pages/home";

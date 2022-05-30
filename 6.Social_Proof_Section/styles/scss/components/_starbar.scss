@@ -1,0 +1,41 @@
+@use "./../abstracts/mixins" as *;
+@use "./../variables" as *;
+
+.star-bar {
+  width: 446px;
+  height: 55px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: $lightm;
+  color: $mgnta;
+  font-weight: 700;
+
+
+  @include devices(mobile) {
+    flex-direction: column;
+    width: 326px;
+    height: 78px;
+  }
+
+  .star {
+    width: 42%;
+    text-align: center;
+
+    @include devices(mobile) {
+      width: 100%;
+    }
+
+  }
+
+  .star-title {
+    width: 58%;
+    text-align: left;
+
+    @include devices(mobile) {
+      width: 100%;
+      text-align: center;
+    }
+  }
+}

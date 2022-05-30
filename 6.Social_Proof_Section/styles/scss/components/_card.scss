@@ -1,0 +1,66 @@
+@use "./../variables" as *;
+@use "./../abstracts/mixins" as *;
+
+.card {
+  width: 349px;
+  height: 234px;
+  padding: 40px 30px;
+  background-color: $mgnta;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  line-height: 1.5rem;
+  border-radius: 10px;
+
+  @include devices(mobile) {
+    width: 326px;
+    height: 246px;
+    padding: 38px 31px;
+  }
+
+  .card-header {
+    width: 286px;
+    height: 43px;
+    display: flex;
+
+
+    .card-img {
+      width: 42px;
+      height: 100%;
+      object-fit: contain;
+      border-radius: 50%;
+    }
+
+    .card-name {
+      width: 244px;
+      padding-left: 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      line-height: 1rem;
+      align-self: center;
+
+      p:first-child {
+        color: $lightm;
+        font-weight: 700;
+      }
+
+      p:last-child {
+        color: pink;
+        font-weight: 400;
+      }
+
+      @include devices(mobile) {
+        width: 224px;
+      }
+    }
+  }
+
+  .card-content {
+    color: $lightm;
+    font-weight: 500;
+    line-height: 1.3rem;
+  }
+
+
+}

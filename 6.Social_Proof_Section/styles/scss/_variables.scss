@@ -1,0 +1,27 @@
+// # basic variables
+// ## Breakpoint
+$mobile: 481px;
+$tablet: 680px;
+
+
+// ## Colors
+// ### Primary
+
+$mgnta: hsl(300, 43%, 22%);
+$pink: hsl(333, 80%, 67%);
+
+
+// ### Neutral
+
+$graym: hsl(303, 10%, 53%);
+$lightm: hsl(300, 24%, 96%);
+$white: hsl(0, 0%, 100%);
+
+// ## Typography
+// ### Body Copy
+$fpSize: 15px;
+
+// ### Font
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+$ffamily: 'League Spartan', sans-serif;
